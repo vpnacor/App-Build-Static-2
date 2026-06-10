@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chelsea Market", system-ui;
+}
+
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#home, #introduction, #featured,  #categories-section, #resources, #mission {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+.card-intro{
+     border: 0px solid black;
+     border-radius: 10px;
+     background-color: #fdecfb;
+     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+     padding: 20px 0px 10px 40px;
+     margin: 100px;
+}
+
+.card-col, .featured-card, .category-col, .resource-col, .mission-col, .contact-col{
+    margin-bottom: 100px;
+}
+
+.resource-body{
+    background-color: #cbccff;
+    border-radius: 20px;
+}
+
+#icon {
+    height: 50px;
+    width:50px;
+}
+
+
+
+

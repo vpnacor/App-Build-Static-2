@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+     <link rel="stylesheet" href="./index.css">
+    <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Chelsea+Market&family=Cherry+Bomb+One&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Irish+Grover&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mystery+Quest&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+<!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">TUTORIAL HUB</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#introduction">Intro</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="#featured" >Featured</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="#categories-section">Categories</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="#resources">Resources</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+<!-- End Navbar -->
+
+<!-- Home Section -->
+        <section id="home">
+            <div class="container-lg py-5">
+                <div class="row justify-content-center align-items-center"> <!-- Row -->
+
+                    <div class="col-12 col-md-5 text-center">
+                        <h1>
+                            <div class="home-title">Master Your Skills</div>               
+                        </h1>
+                        <p class="lead my-4 text-muted">Unlock your potential with our comprehensive learning platform designed for modern professionals. Stay ahead with curated industry-standard tutorials.</p>
+                        <a href="#" class="btn btn-secondary btn-lg">Get Started &rarr;</a>
+                        <a href="#" class="btn btn-secondary btn-lg">View Demo</a>
+                    </div>
+
+                    <!-- Image -->
+                    <div class="col-12 col-md-5 d-none d-md-flex justify-content-center align-items-center">
+                        <img class="img-fluid w-75" src="./images/home.png" alt="educ cover">
+                    </div>
+                 </div> <!--End Row -->
+            </div>
+        </section>
+<!-- End Home Section -->
+
+
+<!-- Introduction  -->
+        <section id="introduction">
+            <div class="container-lg py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-7 text-center justify-content-center align-items-center">
+                        <h1>Learn at Your Own Pace</h1>
+                        <p>Our platform's mission is to provide accessible, high-quality education to everyone, everywhere. Study whenever you want and build your career with professional tools and dedicated support.</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center g-5 mt-5">
+                    <div class="card-intro col-md-3 text-center"> 
+                        <img class="img-fluid w-25" src="./images/icon/clock.png" alt="clock">
+                        <h2>Flexible Schedule</h2>
+                        <p>Access content 24/7 from any device across the globe.</p>
+                    </div>
+
+                    <div class="card-intro col-md-3 text-center">  
+                        <img class="img-fluid w-25" src="./images/icon/award.png" alt="clock">
+                        <h2>Expert-led</h2>
+                        <p>Learn from industry veterans with years of practical experience.</p>
+                    </div>
+
+                    <div class="card-intro col-md-3 text-center" >  
+                        <img class="img-fluid w-25" src="./images/icon/check.png" alt="clock">
+                        <h2>Industry Certified</h2>
+                        <p>Earn recognized certificates to boost your professional portfolio.</p>
+                    </div>
+                </div>
+                  
+             </div> <!--End Container -->
+        </section>
+<!-- End Introduction  -->
+
+
+<!-- Featured -->
+ <section id="featured">
+    <div class="container-lg">
+        <div class="row">
+                <h1>Browse by Category</h1>
+                <h5 class="mb-5">Explore our most popular learning domains</h5>
+            <!-- card1 -->
+            <div class="featured-card col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/code.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tech & Coding</h5>
+                        <p class="card-text">Full-stack development, Python, and data engineering pathways.</p>
+                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card2 -->
+             <div class="featured-card col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/palette.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Design UI/UX</h5>
+                        <p class="card-text">Visual communication, user research, and interactive prototypes.</p>
+                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card3 -->
+             <div class="featured-card col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/chart.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Strategy</h5>
+                        <p class="card-text">Project management, entrepreneurship, and financial analysis.</p>
+                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- End Featured -->
+
+<!-- Categories -->
+ <section id="categories-section">
+        <div class="container-lg">
+        <div class="row">
+                <h1>Learning Paths</h1>
+                <h5 class="mb-5">Structured curriculum for career excellence</h5>
+            <!-- card1 -->
+            <div class="category-col col-12 d-flex justify-content-center col-md-3">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/code.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <span>Beginner</span>
+                    <div class="card-body text-start">
+                        <h5 class="card-title">Web Architecture</h5>
+                        <a href="#" class="text-primary text-decoration-none">View Resource &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card2 -->
+             <div class="category-col col-12 d-flex justify-content-center col-md-3">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/palette.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <span>Advanced</span>
+                    <div class="card-body">
+                        <h5 class="card-title">AI Foundations</h5>
+                        <a href="#" class="text-primary text-decoration-none">View Resource &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card3 -->
+             <div class="category-col col-12 d-flex justify-content-center col-md-3">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/chart.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <span>Intermediate</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Visual Branding</h5>
+                        <a href="#" class="text-primary text-decoration-none">View Resource &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card4 -->
+             <div class="category-col col-12 d-flex justify-content-center col-md-3">
+                <div class="card p-5" style="width: 18rem;">
+                    <img src="./images/icon/chart.png" class="card-img-top w-25 mx-auto d-block" alt="...">
+                    <span>Professional</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Agile Mastery</h5>
+                        <a href="#" class="text-primary text-decoration-none">View Resource &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- End Categories -->
+
+<!-- Resources -->
+ <section id="resources">
+    <div class="container-lg">
+        <div class="row">
+
+            <div class="col-12 col-md-6">
+                <h1>Find a Learning Center</h1>
+                <p>Locate our physical hubs for in-person workshops and networking events.</p>
+                <img class="img-fluid" src="./images/icon/location.png" alt="">
+            </div>
+
+
+            <div class="resource-col col-12 col-md-6" id="about">
+                <h1>Featured Resource</h1>
+                <div class="resource-body p-5" id="about">
+                    <span>Free-Ebook</span>
+                    <h3>The 2026 Developer Handbook</h3>
+                    <p>A comprehensive guide to the latest trends in software development, including AI integration, cloud-native architectures, and ethical coding practices.</p>
+                    <a href="" class="btn btn-primary">Download Now</a>
+                    <span>4.8k Downloads</span>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!--End Resources -->
+
+
+<!-- Mission -->
+ <section id="mission">
+    <div class="container-lg">
+        <div class="row">
+
+            <div class="mission-col col-12 col-md-6">
+                <h1>Mission Statement</h1>
+                <h5>"To democratize professional education by building a global ecosystem where skills are accessible to every motivated learner, regardless of their background or geography. We believe in the power of continuous learning to transform lives."</h5>
+                    
+                <div class="d-flex align-items-center gap-3">
+                    <div class="mt-4">
+                        <img class="img-fluid" src="./images/icon/bulb.png" alt="bulb" id="icon">
+                    </div>
+                    <div class="mt-5">
+                        <h5 class="">Innovation Focused</h5>
+                        <p class="">Always updating content for the future.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <!-- CONTACT -->
+            <div class="contact-col col-12 col-md-6 d-flex flex-column align-items-center">
+                <h1>Contact Us</h1>
+
+                <div class="d-flex">
+                    
+                    <div class="mt-2">
+                        <img class="img-fluid" src="./images/icon/envelope.png" alt="" id="icon">
+                    </div>
+
+                    <div class="m-2">
+                        <p class="text-secondary">Email Us</p>
+                        <h5>hello@tutorialhub.com</h5>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <img class="img-fluid" src="./images/icon/phone.png" alt="" id="icon">
+
+                    <div>
+                        <p class="text-secondary"> Call Support</p>
+                        <h5>+1 (555) 123-4567</h5>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- End Mission -->
+
+<footer class="py-3 bg-secondary">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-3">
+
+                <h5 class="mb-0">Tutorial Hub</h5>
+
+                <p class="mb-0">
+                    © 2026 Tutorial Hub. All rights reserved.
+                </p>
+
+                <div class="d-flex gap-2">
+                    <img class="img-fluid" src="./images/icon/fb.png" alt="Facebook" id="icon">
+                    <img class="img-fluid" src="./images/icon/insta.png" alt="Instagram" id="icon">
+                    <img class="img-fluid" src="./images/icon/pin.png" alt="Pinterest" id="icon">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
